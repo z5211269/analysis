@@ -1,249 +1,134 @@
-/********************************************************/
-/*                 Page background                      */
-/********************************************************/
-body, .content { 
-	background: #fff; 
-	color:#333; 
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Home</title>
+<!-- core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet"> 
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet"> 
+     
+</head> 
+
+<body id="home">
+
+<header id="header">
+	<nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			
+			<div class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li class="scroll active"><a href="#Background">Background</a></li> 
+					<li class="scroll"><a href="#Comprison">Comprison</a></li>
+                    <li class="scroll active"><a href="#Analysis">Analysis</a></li>
+                    <li class="scroll active"><a href="#Latte Line">Latte Line</a></li> 
+                    <li class="scroll active"><a href="#Conclusion">Conclusion</a></li> 
+				</ul>
+			</div>
+		</div><!--/.container-->
+	</nav><!--/nav-->
+</header><!--/header-->
+
+<section id="hero-banner">
+		 <div class="banner-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							  
+								<h2>Highest year of school completed </h2> 
+						</div>
+					</div>
+				</div>
+			</div>
+</section><!--/#main-slider-->
+<section class="download-now" id="Background">
+	<div class="container">
+	 <div class="section-header">
+			<h2 class="section-title wow fadeInDown">Background</h2>
+			<p class="wow fadeInDown">The level of education becomes more significant each passing day. <br>The difference between 2011 and 2016 can effectively demonstrate <br>the improvement of the society. The number of people who complete <br> year 12 or higher and those who didn't go toschool at all are both impact <br>the society somehow.<br></p>
+		
+	  </div>
+	</div>
+  </section>
+  
+<section id="Comprison" >
+	<div class="container">
+
+		<div class="section-header">
+			<br><br><h2 class="section-title wow fadeInDown">Comprison</h2>
+			<p class="wow fadeInDown">The datasets demonstrate the highest year of completed school by age<br> by sex between 2011 and 2016. Improvement of government helps more<br> people get their deserving educational opportunities so that more people <br>could have receivechances to enter shool and graduate thier high school<br> successfully. </p>
+		</div>
+
+	</div><!--/.container-->
+</section><!--/#services-->
+
+<section id="Analysis" >
+	<div class="container">
+
+		<div class="section-header">
+			<br><br><h2 class="section-title wow fadeInDown">Analysis</h2>
+			<h1>Number of People DIDN'T GO TO SCHOOL in 2011 & 2016</h1>
+			<p><script>generateText(300)</script></p>
+                &emsp;&emsp;&emsp;&emsp;&emsp;<iframe src="https://mingziye.github.io/test2/" width="500" height="400"></iframe>&emsp;&emsp;&emsp;&ensp;
+               <iframe src="https://mingziye.github.io/assmt2/" width="500" height="400"></iframe>
+
+				<h1>15-24 years students completed yr 12 in 2011 & 2016</h1><br>
+				<p><script>generateText(300)</script></p>
+                &emsp;&emsp;&emsp;&emsp;&emsp;<iframe src="https://mingziye.github.io/11_15-19Yr12/" width="500" height="400"></iframe>&emsp;&emsp;&emsp;&ensp;
+                <iframe src="https://mingziye.github.io/2016-Y12/" width="500" height="400"></iframe><br><br><br><br>
+			
+			
+		</div>
+
+	</div><!--/.container-->
+</section><!--/#services-->
+
+<section id="Latte Line">
+	<div class="container">
+
+		<div class="section-header">
+			<h2 class="section-title wow fadeInDown">Latte Line</h2>
+			<p class="wow fadeInDown">Latte Line divides Sydney in two classes, Sydney down class and economic<br> line. which running from the airport north-west through Parramatta. The <br>prosperity in the north of Latte line thoroughly shape the large differences<br> on educational levels between regions, more people in Sydney down class<br> has finished their year 12, but a large gap still exists comparing to the area<br> where north of the latte line. </p>
+		</div>
+
+	</div><!--/.container-->
+</section><!--/#services-->
+
+<section id="Conclusion" >
+	<div class="container">
+
+		<div class="section-header">
+			<h2 class="section-title wow fadeInDown">Conlusion</h2>
+			<p class="wow fadeInDown">1. Education situation has improved overall<br>2. It is still a huge disparity between northen and Southern of latte line.<br>3. Education levels in some areas are severely out of balance
+		</div>
+
+	</div><!--/.container-->
+</section><!--/#services-->
 
 
-/********************************************************/
-/*                     Typography                       */
-/********************************************************/
-h1, h2, h3, h4, h5, h6 { 
-	font-family: "Open sans", Helvetica, Arial;
-	font-weight: 300;
-}
-
-p, .jumbotron p {
-	font-size: 15px;
-	line-height: 1.6em;
-}
-
-a{ color: #CD503A; }
-a:hover, a:focus { color: #953726; }
-a:visited { color: #D87563; }
-
-/********************************************************/
-/*                        Header                        */
-/********************************************************/
-.header {
-	background: #A43222;
-	background: -moz-linear-gradient(top,  #A43222 0%, #CD503A 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A43222), color-stop(100%,#CD503A));
-	background: -webkit-linear-gradient(top,  #A43222 0%,#CD503A 100%);
-	background: -o-linear-gradient(top,  #A43222 0%,#CD503A 100%);
-	background: -ms-linear-gradient(top,  #A43222 0%,#CD503A 100%);
-	background: linear-gradient(to bottom,  #A43222 0%,#CD503A 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A43222', endColorstr='#CD503A',GradientType=0 ); 
-	color: white;
-	margin-bottom: 0;
-	padding-bottom: 0px;
-}
-.header h1 {
-	font-family: "Open sans", Arial;
-	font-size: 40px;
-	font-weight: bold;
-	margin: 35px 0 10px 0;
-	text-align: center;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
-	color:#F6EFDD;
-}
-.header h2 {
-	color: rgba(255,255,255,.9);
-	font-family: Georgia;
-	font-size: 17px;
-	font-weight: normal;
-	margin: 0 0 25px 0;
-	text-align: center;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
-}
-.header p { font-size: 15px; line-height: 1.2em;}
-.header .lead {
-	font-family: "Open sans", Arial;
-	color: rgba(255,255,255,.9);
-	line-height: 1.2em;
-	font-size: 18px;
-	font-weight: 300;
-	text-align: center;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
-}
-.header .small { 
-	font-size: 0.9em; 
-	line-height: 1.2em;
-	text-align: center;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
-}
-.header .text-muted { color:white; opacity: 0.5; }
-
-.header form { margin-bottom: 18px; }
-.header .form-control { background: rgba(5,5,5,0.4); border: 0; color: white; font-size:15px;}
-.header .form-control::-webkit-input-placeholder { color: rgba(255,255,255,0.3); }
-.header .form-control:-moz-placeholder { color: rgba(255,255,255,0.3); }
-.header .form-control::-moz-placeholder { color: rgba(255,255,255,0.3); }
-.header .form-control:-ms-input-placeholder { color: rgba(255,255,255,0.3); }
-.header .btn-default {
-	background: rgba(255,255,255,.06);
-	border: 1px solid rgba(255,255,255,.8);
-	color: rgba(255,255,255,.8);
-	font-size:15px;
-	padding: 12px 36px;
-}
-
-
-/********************************************************/
-/*          Illustration and its animation              */
-/********************************************************/
-#illustration { z-index: 1; text-align: center; width:100%; margin-bottom:-130px;}
-#illustration img {
-	max-width:100%;
-	-webkit-transition: all 0.8s;
-	-o-transition: all 0.8s;
-	-moz-transition: all 0.8s;
-	transition: all 0.8s;
-}
-.expand img{ margin-bottom:120px; margin-top:-100px; }
-
-
-
-/********************************************************/
-/*                       Content                        */
-/********************************************************/
-
-.content { 
-	position: relative; 
-	z-index: 999; 
-	margin-bottom:40px;  
-}
-
-.jumbotron { 
-	background:#f5f5f5; 
-}
-
-.content .lead { font-family: Georgia; font-style: italic; color:#999; }
-
-.space-before { padding-top:20px; }
-.space-after { padding-bottom:20px; }
-
-.img-feature { 
-	border:15px solid #f5f5f5;
-	margin:0 auto;
-	-webkit-border-radius: 50% ;
-	-moz-border-radius: 50% ;
-	border-radius: 50%;
-	padding:1px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-
-/********************************************************/
-/*                   Responsiveness                     */
-/********************************************************/
-
-@media (max-width: 767px) {
-	h1, h2, h3, h4 { text-align: center;}
-}
-
-@media (min-width: 482px) {
-	.header h1 { font-size: 55px; }
-	.header h2 { font-size: 30px; }
-	.header p { font-size: 15px; }
-
-	#illustration { margin-bottom:-215px;}
-	.expand img{ margin-bottom:200px; margin-top:-180px; }
-}
-@media (min-width: 768px) {
-	.header h1 { font-size: 55px; }
-	.header h2 { font-size: 20px; }
-	.header p { font-size: 15px; }
-	.header .lead { font-size:22px; }
-
-	#illustration { margin-bottom:-310px;}
-	.expand img{ margin-bottom:300px; margin-top:-190px; }
-
-}
-@media (min-width: 992px) {
-
-	.header h1 { font-size: 55px; margin-top: 50px; }
-	.header h2 { margin-bottom: 40px;}
-	.header p { font-size: 15px; }
-
-	#illustration { margin-bottom:-380px;}
-	.expand img{ margin-bottom:370px; margin-top:-260px; }
-
-	.space-before { padding-top:40px; }
-	.space-after { padding-bottom:40px; }
-
-}
-
-
-/********************************************************/
-/*                     Color themes                     */
-/********************************************************/
-
-
-/********************/
-/*       Cyan       */
-/********************/
-
-/* Remove this line to activate
-
-.header {
-	background: #005363 url(../images/header.jpg) bottom center; 
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
-	color: white;
-}
-.header h1 { color:white; }
-
-h1, h2, h3, h4, h5, h6 { color: #00b0b0; }
-a{ color: #00b0b0; }
-a:hover, a:focus { color: #007777; }
-a:visited { color: #5A8B86; }
-
-/**/
-
-
-/********************/
-/*      Violet      */
-/********************/
-
-/* Remove this line to activate 
-
-.header {
-	background: #313A5B;
-	background: -moz-linear-gradient(top,  #313A5B 0%, #5D577B 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#313A5B), color-stop(100%,#5D577B));
-	background: -webkit-linear-gradient(top,  #313A5B 0%,#5D577B 100%);
-	background: -o-linear-gradient(top,  #313A5B 0%,#5D577B 100%);
-	background: -ms-linear-gradient(top,  #313A5B 0%,#5D577B 100%);
-	background: linear-gradient(to bottom,  #313A5B 0%,#5D577B 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313A5B', endColorstr='#5D577B',GradientType=0 ); 
-}
-.header h1 { color:white; }
-
-h1, h2, h3, h4, h5, h6 { color: #5E7690; }
-a{ color: #00b0b0; }
-a:hover, a:focus { color: #007777; }
-a:visited { color: #5A8B86; }
-
-/**/
-/*
- HTML5 Shiv v3.7.0 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
-*/
-(function(l,f){function m(){var a=e.elements;return"string"==typeof a?a.split(" "):a}function i(a){var b=n[a[o]];b||(b={},h++,a[o]=h,n[h]=b);return b}function p(a,b,c){b||(b=f);if(g)return b.createElement(a);c||(c=i(b));b=c.cache[a]?c.cache[a].cloneNode():r.test(a)?(c.cache[a]=c.createElem(a)).cloneNode():c.createElem(a);return b.canHaveChildren&&!s.test(a)?c.frag.appendChild(b):b}function t(a,b){if(!b.cache)b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag();
-a.createElement=function(c){return!e.shivMethods?b.createElem(c):p(c,a,b)};a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+m().join().replace(/[\w\-]+/g,function(a){b.createElem(a);b.frag.createElement(a);return'c("'+a+'")'})+");return n}")(e,b.frag)}function q(a){a||(a=f);var b=i(a);if(e.shivCSS&&!j&&!b.hasCSS){var c,d=a;c=d.createElement("p");d=d.getElementsByTagName("head")[0]||d.documentElement;c.innerHTML="x<style>article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}</style>";
-c=d.insertBefore(c.lastChild,d.firstChild);b.hasCSS=!!c}g||t(a,b);return a}var k=l.html5||{},s=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,r=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,j,o="_html5shiv",h=0,n={},g;(function(){try{var a=f.createElement("a");a.innerHTML="<xyz></xyz>";j="hidden"in a;var b;if(!(b=1==a.childNodes.length)){f.createElement("a");var c=f.createDocumentFragment();b="undefined"==typeof c.cloneNode||
-"undefined"==typeof c.createDocumentFragment||"undefined"==typeof c.createElement}g=b}catch(d){g=j=!0}})();var e={elements:k.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video",version:"3.7.0",shivCSS:!1!==k.shivCSS,supportsUnknownElements:g,shivMethods:!1!==k.shivMethods,type:"default",shivDocument:q,createElement:p,createDocumentFragment:function(a,b){a||(a=f);
-if(g)return a.createDocumentFragment();for(var b=b||i(a),c=b.frag.cloneNode(),d=0,e=m(),h=e.length;d<h;d++)c.createElement(e[d]);return c}};l.html5=e;q(f)})(this,document);
-jQuery(document).ready(function($) {
-	$('#illustration').hover( function(){
-		$(this).addClass('expand');
-	}, function(){
-		$(this).removeClass('expand');
-	} );
-});
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/mousescroll.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="contact/jqBootstrapValidation.js"></script>
+<script src="contact/contact_me.js"></script>
+<script src="js/custom-scripts.js"></script>
+</body>
+</html>
